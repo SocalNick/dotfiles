@@ -1,0 +1,15 @@
+---
+target: https://bosh.xena.cf-app.com:25555
+target_name: xena
+target_version: 1.3262.15.0 (00000000)
+target_uuid: 8c25ec81-3f18-4d73-a8e6-86aabcab2ae0
+ca_cert:
+  https://bosh.xena.cf-app.com:25555: 
+aliases:
+  target:
+    xena: https://bosh.xena.cf-app.com:25555
+    8c25ec81-3f18-4d73-a8e6-86aabcab2ae0: https://bosh.xena.cf-app.com:25555
+auth:
+  https://bosh.xena.cf-app.com:25555:
+    username: admin
+    password: 3f0pUBNffNybAHqI
