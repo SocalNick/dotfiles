@@ -1,0 +1,1 @@
+/Users/ncalugar/.config/fisherman/z/conf.d/z.fish

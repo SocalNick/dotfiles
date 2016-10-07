@@ -1,0 +1,1 @@
+/Users/ncalugar/.config/fisherman/getopts/getopts.fish
