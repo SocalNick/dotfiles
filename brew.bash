@@ -23,6 +23,7 @@ brew install chruby
 brew install chruby-fish
 brew install ruby-install
 brew install golang
+brew install jq
 
 # Remove outdated versions from the cellar
 brew cleanup
