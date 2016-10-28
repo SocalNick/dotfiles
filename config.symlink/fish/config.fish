@@ -11,3 +11,6 @@ set PATH $HOME/workspace/go/bin $PATH
 # setup omf/theme-bobthefish
 set -g theme_display_vi yes
 set -g theme_display_date no
+
+# set correct vim
+set -xg EDITOR 'vim'

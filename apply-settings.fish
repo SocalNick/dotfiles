@@ -2,8 +2,6 @@
 
 # setup fish universal variables
 
-set -U EDITOR 'vim'
-
 set -U fish_color_user 5f875f
 set -U fish_color_host 5f87af
 set -U fish_color_cwd 87af5f
