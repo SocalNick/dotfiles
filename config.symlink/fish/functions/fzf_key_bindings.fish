@@ -1,0 +1,1 @@
+/Users/ncalugar/.fzf/shell/key-bindings.fish

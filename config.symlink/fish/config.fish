@@ -14,3 +14,5 @@ set -g theme_display_date no
 
 # set correct vim
 set -xg EDITOR 'vim'
+
+#test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
