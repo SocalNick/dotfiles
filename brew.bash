@@ -6,37 +6,13 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
-# Install CF CLI / BOSH CLI
-brew tap cloudfoundry/tap
-brew install cf-cli
-cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org/
-cf install-plugin Diego-Enabler -r CF-Community
-brew install bosh-cli
-
-# Install Vagrant
-brew cask install virtualbox
-brew cask install vagrant
-
-# Install everything else
-brew install ag
-brew install lastpass-cli
-brew install chruby
-brew install chruby-fish
-brew install ruby-install
-brew install golang
-brew install jq
-brew install mysql
-brew install postgresql
-brew install tmate
-brew install Caskroom/cask/sequel-pro
-brew install watch
-brew install vim --with-lua
-brew install node
-brew install heroku
-brew install direnv
-
-brew tap universal-ctags/universal-ctags
-brew install universal-ctags --HEAD
+# Install everything
+brew install automake aws-shell awscli azure-cli bison cloudfoundry/tap/bosh-cli ccat certbot cloudfoundry/tap/cf-cli chromedriver chruby cmake composer coreutils cloudfoundry/tap/credhub-cli direnv fasd fzf git git-duet/tap/git-duet git-secrets gnupg go heroku/brew/heroku htop jq lastpass-cli libyaml lua mysql mysql-connector-c neovim openvpn pkg-config postgresql pwgen ruby-install sshuttle dpb587/tap/ssoca telnet terraform the_silver_searcher watch wget yarn
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+# Install CF Plugins
+cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org/
+cf install-plugin Diego-Enabler -r CF-Community
+cf install-plugin usage-report -r CF-Community
