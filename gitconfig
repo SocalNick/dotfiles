@@ -12,9 +12,9 @@
 	ci = commit -v
 	# status
 	st = status
-        # logs
-        lol = log --graph --decorate --pretty=oneline --abbrev-commit
-        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  # logs
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 
 [color]
 	ui = auto
