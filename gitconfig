@@ -33,9 +33,5 @@
 	changed = blue
 	untracked = red
 
-[user]
-	email = njcalugar@gmail.com
-	name = Nicholas Calugar
-
 [core]
 	autocrlf = input
