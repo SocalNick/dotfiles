@@ -35,3 +35,4 @@
 
 [core]
 	autocrlf = input
+	editor = nvim
