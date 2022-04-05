@@ -113,3 +113,5 @@ export PATH=$PATH:$GOROOT/bin
 
 # aliases
 alias vim="nvim"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
