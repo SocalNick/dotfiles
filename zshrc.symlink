@@ -1,8 +1,10 @@
 
-for f in ~/.gusto/*; do source $f; done
 
 # aliases
 alias vim="nvim"
+alias ll="ls -la"
 
 
 source ~/.gusto/init.sh
+
+export PATH=$PATH:$HOME/go/bin
